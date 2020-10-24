@@ -1,0 +1,36 @@
+#OrderResult {
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        background-color: #757575;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #a4a4a4;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background-color: grey;
+      }
+
+    table {
+      thead,  tbody {
+        td.td-WRO_CODE {width: 25%;}
+        td.td-WR_NAME {width: 10%; text-align: center;}
+        td.td-WR_COUNT {width: 5%;}
+        td.td-WR_DATE {width: 10%;}
+        td.td-REF{width: 5%; text-align: center;}
+        td.td-LOT_NUMBER {width: 25%;}
+      }
+
+      tbody td.td-WRO_CODE, tbody td.td-LOT_NUMBER {
+        padding-left: 10px;}
+      tbody td.td-WR_COUNT, tbody td.td-WR_DATE {
+        padding-right: 10px; text-align: right;}
+
+    }
+}
+
+
+

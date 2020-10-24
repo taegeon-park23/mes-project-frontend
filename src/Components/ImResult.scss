@@ -1,0 +1,40 @@
+#MrResult {
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        background-color: #757575;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #a4a4a4;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background-color: grey;
+      }
+
+.td-IM_CODE {width: 25%}
+.td-MR_CODE {width: 25%}
+.td-WR_NAME {width: 10%}
+.td-BSN_NAME {width: 10%; text-align: center;}
+.td-WR_COUNT {width:5%}
+.td-IM_DATE {width: 15%}
+.td-REF {width:5%; text-align: center;}
+.td-LOT_NUMBER {width: 15%}
+tbody td.td-MR_CODE, tbody td.td-LOT_NUMBER {padding-left: 10px;}
+tbody td.td-MR_DATE, tbody td.td-WR_COUNT, tbody td.td-WR_COUNT_CUR
+{text-align: right; padding-right: 10px;}
+.td-button {width: 10%;
+    input[type="button"] {
+        position: relative;
+        left: 5%;        
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        width: 90%;
+    }
+}
+
+}
+
+

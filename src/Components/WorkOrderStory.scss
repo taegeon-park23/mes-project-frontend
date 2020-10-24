@@ -1,0 +1,48 @@
+#WorkOrderStory {
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+        background-color: #757575;
+      }
+  
+      &::-webkit-scrollbar-thumb {
+        background-color: #a4a4a4;
+      }
+  
+      &::-webkit-scrollbar-track {
+        background-color: grey;
+      }
+
+    table {
+      thead,  tbody {
+        td.td-WRO_CODE {width: 25%;}
+        td.td-WR_NAME {width: 10%; text-align: center;}
+        td.td-WR_COUNT {width: 5%;}
+        td.td-WR_DATE {width: 10%;}
+        td.td-REF{width: 5%; text-align: center;}
+        td.td-LOT_NUMBER {width: 25%;}
+      }
+
+      tbody td.td-WR_NAME, td.td-WRP_NAME, td.td-WO_SDATE, td.td-WO_EDATE {
+        text-align: center;
+      }
+      tbody td.td-WRO_CODE, tbody td.td-LOT_NUMBER {
+        padding-left: 10px;}
+      tbody td.td-WR_COUNT, tbody td.td-WR_DATE, td.td-WO_COUNT, td.td-WO_COUNT_CUR {
+        padding-right: 10px; text-align: right;}
+        .td-button {width: 10%;
+          input[type="button"] {
+              position: relative;
+              left: 5%;        
+              border-radius: 5px;
+              color: white;
+              background-color: black;
+              width: 90%;
+          }
+      }
+    }
+}
+
+
+

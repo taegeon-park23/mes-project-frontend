@@ -1,0 +1,22 @@
+.InputCountDialog {
+    display: none;
+    position: absolute;
+    height: 60px;
+    width: 70px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 2px solid black;
+    right: 8.8%;
+
+    label {
+        input[type="number"] {
+            position: relative;
+            left: 10%;
+            width: 80%;
+            color: white;
+            text-align: center;
+            background-color: darkgrey;
+            margin:10px 0px 10px 0px;
+        }
+    }
+}
