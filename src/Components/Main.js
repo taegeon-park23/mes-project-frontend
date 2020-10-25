@@ -5,6 +5,7 @@ import MrResult from './MrResult';
 import WorkOrder from './WorkOrder';
 import ImResult from './ImResult';
 import WorkOrderStory from './WorkOrderStory';
+import ShowChart from './ShowChart';
 import {VscLoading} from 'react-icons/vsc';
 import { connect } from 'react-redux';
 
@@ -25,6 +26,8 @@ class Main extends React.Component {
                 return(<ImResult/>);
               case "WorkOrderStory":
                 return(<WorkOrderStory/>);
+              case "ShowChart":
+                return(<ShowChart/>);
               case "Loading":
                 return(<div id="Loading">
                 <VscLoading class="Loading-icon">

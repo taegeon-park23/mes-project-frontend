@@ -57,7 +57,8 @@ class Head extends React.Component {
                         <MenuElement name="MrResult" value="원자재 발주 조회"/>
                         <MenuElement name="ImResult" value="원자재 입고 기록"/>
                         <MenuElement name="WorkOrder" value="작업 지시"/>
-                        <MenuElement name="WorkOrderStory" value="작업 지시 기록"/>                                                
+                        <MenuElement name="WorkOrderStory" value="작업 지시 기록"/>
+                        <MenuElement name="ShowChart" value="분석 차트"/>                                                 
                         <li onClick={onClickMenu}>▲</li>
                     </ul></div>
                     <TiUser className="Head-auth" />                    
