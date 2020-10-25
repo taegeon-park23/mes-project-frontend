@@ -1,6 +1,5 @@
 import React from "react";
-import { ResponsivePie } from '@nivo/pie'
-import { ImParagraphCenter } from "react-icons/im";
+import { ResponsivePie } from '@nivo/pie';
 
 const data = [
     {
@@ -153,12 +152,12 @@ const MyResponsivePie = (data) => (
 
 class ShowChart extends React.Component {
     render() {
-
         return(
             <div style={ShowChartStyle}>
+                <p style={title}>분석 차트</p>
                 {MyResponsivePie(data)}
             </div>
-        )
+        );
     }
 }
 
@@ -167,13 +166,13 @@ const ShowChartStyle = {
     left: "5%",
     backgroundColor: "white",
     maxWidth: "90vw",
-    maxHeight: "400px",
+    maxHeight: "410px",
     borderRadius: "5px",
-    display: "flex",
 };
 
-const RadialChartStyle = {
-    backgroundColor: "red"
-};
-
+const title = {
+    paddin:"5px",
+    textAlign: "center",
+    font: "bold sans-serif",
+}
 export default ShowChart
